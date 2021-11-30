@@ -286,6 +286,148 @@ exports[`Storyshots InboxScreen Error 1`] = `
 </div>
 `;
 
+exports[`Storyshots LoginForm Default 1`] = `
+<div>
+  <div>
+    <label
+      htmlFor="name"
+    >
+      Name
+    </label>
+    <input
+      id="name"
+      type="text"
+      value="name"
+    />
+  </div>
+  <div>
+    <label
+      htmlFor="password"
+    >
+      Password
+    </label>
+    <input
+      id="password"
+      type="text"
+      value="password"
+    />
+  </div>
+  <button
+    type="submit"
+  >
+    Submit
+  </button>
+</div>
+`;
+
+exports[`Storyshots LoginForm Empty Form 1`] = `
+<div>
+  <div>
+    <label
+      htmlFor="name"
+    >
+      Name
+    </label>
+    <input
+      id="name"
+      type="text"
+      value="name"
+    />
+  </div>
+  <div>
+    <label
+      htmlFor="password"
+    >
+      Password
+    </label>
+    <input
+      id="password"
+      type="text"
+      value="password"
+    />
+  </div>
+  <button
+    type="submit"
+  >
+    Submit
+  </button>
+</div>
+`;
+
+exports[`Storyshots LoginForm Filled Form 1`] = `
+<div
+  className="form"
+  style={
+    Object {
+      "display": "flex",
+      "margin": "5em",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "margin": "1em",
+      }
+    }
+  >
+    <label
+      className="form-label"
+      htmlFor="email"
+      style={
+        Object {
+          "marginLeft": "1em",
+          "padding": "1em",
+        }
+      }
+    >
+      Email
+    </label>
+    <input
+      id="email"
+      type="email"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "margin": "1em",
+      }
+    }
+  >
+    <label
+      htmlFor="password"
+      style={
+        Object {
+          "marginLeft": "1em",
+          "padding": "1em",
+        }
+      }
+    >
+      Password
+    </label>
+    <input
+      id="password"
+      type="password"
+    />
+  </div>
+  <button
+    style={
+      Object {
+        "borderRadius": "1em",
+        "paddingLeft": "1em",
+        "paddingRight": "1em",
+      }
+    }
+    type="submit"
+  >
+    Submit
+  </button>
+</div>
+`;
+
 exports[`Storyshots Task Archived 1`] = `
 <div
   className="list-item TASK_ARCHIVED"
