@@ -2,11 +2,11 @@ import React from "react";
 import PropTypes from 'prop-types';
 import './button.css';
 
-const Button = ({primary, label, size, backgroundColor, ...props }) => {
+const Button = ({primary, label, size, backgroundColor, handleClick, ...props }) => {
     const mode = primary ? 'btn--primary' : 'btn--secondary';
     return (
         <button className={['btn', `btn--${size}`, mode].join(' ')} type='button' {...props}
-        
+        onClick={handleClick}
             style={backgroundColor && { backgroundColor }}
         >{label}</button>
     )
@@ -17,12 +17,13 @@ Button.propTypes = {
     primary:PropTypes.bool.isRequired,
     label: PropTypes.string.isRequired,
     size: PropTypes.oneOf(['sm', 'md', 'lg']),
-    backgroundColor:PropTypes.string,
+    backgroundColor: PropTypes.string,
+    handleClick:PropTypes.func
 }
 
 Button.defaultProps = {
   backgroundColor: null,
   primary: false,
   size: 'md',
-//   handleClick: undefined,
+  handleClick: undefined,
 };
