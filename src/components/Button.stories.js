@@ -8,8 +8,8 @@ import Button from "./Button";
 export default {
   component: Button,
     title: 'Button',
-    argTypes: {
-        handleSubmit: { action: 'handleSubmit' } },
+    // argTypes: {
+    //     handleSubmit: { action: 'handleSubmit' } },
 };
 
 

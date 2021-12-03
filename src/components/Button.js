@@ -24,5 +24,5 @@ Button.defaultProps = {
   backgroundColor: null,
   primary: false,
   size: 'md',
-
+//   handleClick: undefined,
 };
