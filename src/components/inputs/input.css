@@ -1,0 +1,29 @@
+.input-container{
+    font-size: 14px;
+   line-height: 20px;
+   flex-wrap: wrap;
+   height: 3rem;
+   /* background: white; */
+   transition: all ease-out 150ms;
+     margin: 2em;
+    display: flex;
+
+}
+.input-label{
+    padding-right: 1em;
+    margin: 1em;
+}
+.input-field{
+    border-radius: 2em;
+
+}
+.input-field--sm{
+padding:10px 16px;
+}
+
+.input-field--md{
+padding:10px 24px;
+}
+.input-field--lg{
+padding:10px 30px;
+}
