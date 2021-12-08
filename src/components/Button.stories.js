@@ -30,3 +30,24 @@ Secondary.args = {
     backgroundColor: 'red',
     size:'lg'
 };
+
+export const Hover = Template.bind({});
+Hover.parameters = { pseudo: { hover: true } }
+Hover.args = {
+    label: 'Cancel',
+    primary: false,
+    size: 'lg'
+};
+
+export const Focus = Template.bind({})
+Focus.parameters = { pseudo: { focus: true } }
+Focus.args = {
+    label: 'Cancel',
+    primary: false,
+    size: 'lg'
+};
+export const Active = Template.bind({})
+Active.parameters = { pseudo: { active: true } }
+Active.args= {
+    ...Focus.args
+}

@@ -1,5 +1,161 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots Button Active 1`] = `
+<button
+  className="btn btn--md btn--secondary"
+  style={null}
+  type="button"
+/>
+`;
+
+exports[`Storyshots Button All 1`] = `
+<div
+  className="story-grid"
+>
+  <div>
+    <button
+      className="btn btn--undefined btn--secondary"
+    >
+      Normal
+    </button>
+  </div>
+  <div
+    className="pseudo-hover"
+  >
+    <button
+      className="btn btn--undefined btn--secondary"
+    >
+      Hover
+    </button>
+  </div>
+  <div
+    className="pseudo-focus"
+  >
+    <button
+      className="btn btn--undefined btn--secondary"
+    >
+      Focus
+    </button>
+  </div>
+  <div
+    className="pseudo-active"
+  >
+    <button
+      className="btn btn--undefined btn--secondary"
+    >
+      Active
+    </button>
+  </div>
+  <div
+    className="pseudo-hover pseudo-focus"
+  >
+    <button
+      className="btn btn--undefined btn--secondary"
+    >
+      Hover Focus
+    </button>
+  </div>
+  <div
+    className="pseudo-hover pseudo-active"
+  >
+    <button
+      className="btn btn--undefined btn--secondary"
+    >
+      Hover Active
+    </button>
+  </div>
+  <div
+    className="pseudo-focus pseudo-active"
+  >
+    <button
+      className="btn btn--undefined btn--secondary"
+    >
+      Focus Active
+    </button>
+  </div>
+  <div
+    className="pseudo-hover pseudo-focus pseudo-active"
+  >
+    <button
+      className="btn btn--undefined btn--secondary"
+    >
+      Hover Focus Active
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Button Default 1`] = `
+<button
+  className="btn btn--undefined btn--secondary"
+>
+  Label
+</button>
+`;
+
+exports[`Storyshots Button Focus 1`] = `
+<button
+  className="btn btn--md btn--secondary"
+  style={null}
+  type="button"
+/>
+`;
+
+exports[`Storyshots Button Hover 1`] = `
+<button
+  className="btn btn--md btn--secondary"
+  style={null}
+  type="button"
+/>
+`;
+
+exports[`Storyshots Button Primary 1`] = `
+<button
+  className="btn btn--lg btn--primary"
+  style={null}
+  type="button"
+>
+  Save
+</button>
+`;
+
+exports[`Storyshots Button Secondary 1`] = `
+<button
+  className="btn btn--lg btn--secondary"
+  style={
+    Object {
+      "backgroundColor": "red",
+    }
+  }
+  type="button"
+>
+  Cancel
+</button>
+`;
+
+exports[`Storyshots ButtonGroup Pair 1`] = `
+<div>
+  <button
+    className="btn btn--md btn--primary"
+    style={null}
+    type="button"
+  >
+    Save
+  </button>
+  <button
+    className="btn btn--md btn--secondary"
+    style={
+      Object {
+        "backgroundColor": "red",
+      }
+    }
+    type="button"
+  >
+    Cancel
+  </button>
+</div>
+`;
+
 exports[`Storyshots InboxScreen Default 1`] = `
 <div
   className="page lists-show"
@@ -283,6 +439,42 @@ exports[`Storyshots InboxScreen Error 1`] = `
       Something went wrong
     </div>
   </div>
+</div>
+`;
+
+exports[`Storyshots InputItem Default Input 1`] = `
+<div
+  className="input-container"
+>
+  <label
+    className="input-label"
+  >
+    Label
+  </label>
+  <input
+    className="input-field input-field--sm"
+    disabled={false}
+    placeholder="placeholder"
+    type="text"
+  />
+</div>
+`;
+
+exports[`Storyshots InputItem Disabled Input 1`] = `
+<div
+  className="input-container"
+>
+  <label
+    className="input-label"
+  >
+    Label
+  </label>
+  <input
+    className="input-field input-field--sm"
+    disabled={true}
+    placeholder="placeholder"
+    type="text"
+  />
 </div>
 `;
 

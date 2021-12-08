@@ -5,7 +5,8 @@ module.exports = {
     "@storybook/addon-essentials",
     "@storybook/preset-create-react-app",
     '@storybook/addon-a11y',
-    '@storybook/addon-interactions'
+    '@storybook/addon-interactions',
+    "storybook-addon-pseudo-states"
   ],
   features: {
     interactionsDebugger: true,

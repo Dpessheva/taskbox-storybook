@@ -31,3 +31,13 @@ padding: 11px 20px;
   background-color: transparent;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
 }
+.pseudo-hover button{
+  background-color: aquamarine;
+}
+.pseudo-active button{
+  background-color: aquamarine;
+}
+
+.pseudo-focus button{
+  border: 2px solid blueviolet;
+}
