@@ -2,111 +2,32 @@
 
 exports[`Storyshots Button Active 1`] = `
 <button
-  className="btn btn--md btn--secondary"
+  className="btn btn--lg btn--secondary"
   style={null}
   type="button"
-/>
-`;
-
-exports[`Storyshots Button All 1`] = `
-<div
-  className="story-grid"
 >
-  <div>
-    <button
-      className="btn btn--undefined btn--secondary"
-    >
-      Normal
-    </button>
-  </div>
-  <div
-    className="pseudo-hover"
-  >
-    <button
-      className="btn btn--undefined btn--secondary"
-    >
-      Hover
-    </button>
-  </div>
-  <div
-    className="pseudo-focus"
-  >
-    <button
-      className="btn btn--undefined btn--secondary"
-    >
-      Focus
-    </button>
-  </div>
-  <div
-    className="pseudo-active"
-  >
-    <button
-      className="btn btn--undefined btn--secondary"
-    >
-      Active
-    </button>
-  </div>
-  <div
-    className="pseudo-hover pseudo-focus"
-  >
-    <button
-      className="btn btn--undefined btn--secondary"
-    >
-      Hover Focus
-    </button>
-  </div>
-  <div
-    className="pseudo-hover pseudo-active"
-  >
-    <button
-      className="btn btn--undefined btn--secondary"
-    >
-      Hover Active
-    </button>
-  </div>
-  <div
-    className="pseudo-focus pseudo-active"
-  >
-    <button
-      className="btn btn--undefined btn--secondary"
-    >
-      Focus Active
-    </button>
-  </div>
-  <div
-    className="pseudo-hover pseudo-focus pseudo-active"
-  >
-    <button
-      className="btn btn--undefined btn--secondary"
-    >
-      Hover Focus Active
-    </button>
-  </div>
-</div>
-`;
-
-exports[`Storyshots Button Default 1`] = `
-<button
-  className="btn btn--undefined btn--secondary"
->
-  Label
+  Cancel
 </button>
 `;
 
 exports[`Storyshots Button Focus 1`] = `
 <button
-  className="btn btn--md btn--secondary"
+  className="btn btn--lg btn--secondary"
   style={null}
   type="button"
-/>
+>
+  Cancel
+</button>
 `;
 
 exports[`Storyshots Button Hover 1`] = `
 <button
-  className="btn btn--md btn--secondary"
+  className="btn btn--lg btn--secondary"
   style={null}
   type="button"
-/>
+>
+  Cancel
+</button>
 `;
 
 exports[`Storyshots Button Primary 1`] = `
@@ -197,6 +118,11 @@ exports[`Storyshots InboxScreen Default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 1"
         />
@@ -237,6 +163,11 @@ exports[`Storyshots InboxScreen Default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 2"
         />
@@ -277,6 +208,11 @@ exports[`Storyshots InboxScreen Default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 3"
         />
@@ -317,6 +253,11 @@ exports[`Storyshots InboxScreen Default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 4"
         />
@@ -357,6 +298,11 @@ exports[`Storyshots InboxScreen Default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 5"
         />
@@ -397,6 +343,11 @@ exports[`Storyshots InboxScreen Default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 6"
         />
@@ -478,148 +429,6 @@ exports[`Storyshots InputItem Disabled Input 1`] = `
 </div>
 `;
 
-exports[`Storyshots LoginForm Default 1`] = `
-<div>
-  <div>
-    <label
-      htmlFor="name"
-    >
-      Name
-    </label>
-    <input
-      id="name"
-      type="text"
-      value="name"
-    />
-  </div>
-  <div>
-    <label
-      htmlFor="password"
-    >
-      Password
-    </label>
-    <input
-      id="password"
-      type="text"
-      value="password"
-    />
-  </div>
-  <button
-    type="submit"
-  >
-    Submit
-  </button>
-</div>
-`;
-
-exports[`Storyshots LoginForm Empty Form 1`] = `
-<div>
-  <div>
-    <label
-      htmlFor="name"
-    >
-      Name
-    </label>
-    <input
-      id="name"
-      type="text"
-      value="name"
-    />
-  </div>
-  <div>
-    <label
-      htmlFor="password"
-    >
-      Password
-    </label>
-    <input
-      id="password"
-      type="text"
-      value="password"
-    />
-  </div>
-  <button
-    type="submit"
-  >
-    Submit
-  </button>
-</div>
-`;
-
-exports[`Storyshots LoginForm Filled Form 1`] = `
-<div
-  className="form"
-  style={
-    Object {
-      "display": "flex",
-      "margin": "5em",
-    }
-  }
->
-  <div
-    style={
-      Object {
-        "display": "flex",
-        "margin": "1em",
-      }
-    }
-  >
-    <label
-      className="form-label"
-      htmlFor="email"
-      style={
-        Object {
-          "marginLeft": "1em",
-          "padding": "1em",
-        }
-      }
-    >
-      Email
-    </label>
-    <input
-      id="email"
-      type="email"
-    />
-  </div>
-  <div
-    style={
-      Object {
-        "display": "flex",
-        "margin": "1em",
-      }
-    }
-  >
-    <label
-      htmlFor="password"
-      style={
-        Object {
-          "marginLeft": "1em",
-          "padding": "1em",
-        }
-      }
-    >
-      Password
-    </label>
-    <input
-      id="password"
-      type="password"
-    />
-  </div>
-  <button
-    style={
-      Object {
-        "borderRadius": "1em",
-        "paddingLeft": "1em",
-        "paddingRight": "1em",
-      }
-    }
-    type="submit"
-  >
-    Submit
-  </button>
-</div>
-`;
-
 exports[`Storyshots Task Archived 1`] = `
 <div
   className="list-item TASK_ARCHIVED"
@@ -644,6 +453,11 @@ exports[`Storyshots Task Archived 1`] = `
     <input
       placeholder="Input title"
       readOnly={true}
+      style={
+        Object {
+          "textOverflow": "ellipsis",
+        }
+      }
       type="text"
       value="Test Task"
     />
@@ -687,6 +501,11 @@ exports[`Storyshots Task Default 1`] = `
     <input
       placeholder="Input title"
       readOnly={true}
+      style={
+        Object {
+          "textOverflow": "ellipsis",
+        }
+      }
       type="text"
       value="Test Task"
     />
@@ -778,6 +597,11 @@ exports[`Storyshots Task Pinned 1`] = `
     <input
       placeholder="Input title"
       readOnly={true}
+      style={
+        Object {
+          "textOverflow": "ellipsis",
+        }
+      }
       type="text"
       value="Test Task"
     />
@@ -831,6 +655,11 @@ exports[`Storyshots TaskList Default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 1"
         />
@@ -871,6 +700,11 @@ exports[`Storyshots TaskList Default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 2"
         />
@@ -911,6 +745,11 @@ exports[`Storyshots TaskList Default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 3"
         />
@@ -951,6 +790,11 @@ exports[`Storyshots TaskList Default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 4"
         />
@@ -991,6 +835,11 @@ exports[`Storyshots TaskList Default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 5"
         />
@@ -1031,6 +880,11 @@ exports[`Storyshots TaskList Default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 6"
         />
@@ -1265,6 +1119,11 @@ exports[`Storyshots TaskList With Pinned Tasks 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 6 (pinned)"
         />
@@ -1305,6 +1164,11 @@ exports[`Storyshots TaskList With Pinned Tasks 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 1"
         />
@@ -1345,6 +1209,11 @@ exports[`Storyshots TaskList With Pinned Tasks 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 2"
         />
@@ -1385,6 +1254,11 @@ exports[`Storyshots TaskList With Pinned Tasks 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 3"
         />
@@ -1425,6 +1299,11 @@ exports[`Storyshots TaskList With Pinned Tasks 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 4"
         />
@@ -1465,6 +1344,11 @@ exports[`Storyshots TaskList With Pinned Tasks 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 5"
         />
