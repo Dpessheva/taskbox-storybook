@@ -32,7 +32,12 @@ Secondary.args = {
 };
 
 export const Hover = Template.bind({});
-Hover.parameters = { pseudo: { hover: true } }
+Hover.parameters = {
+    pseudo: { hover: true },
+    grid: {
+		columns: 3,
+    },
+}
 Hover.args = {
     label: 'Cancel',
     primary: false,

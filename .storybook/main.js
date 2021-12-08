@@ -6,7 +6,9 @@ module.exports = {
     "@storybook/preset-create-react-app",
     '@storybook/addon-a11y',
     '@storybook/addon-interactions',
-    "storybook-addon-pseudo-states"
+    "storybook-addon-pseudo-states",
+    require.resolve('storybook-addon-grid/preset'),
+    require.resolve('storybook-addon-grid/chromatic')
   ],
   features: {
     interactionsDebugger: true,
